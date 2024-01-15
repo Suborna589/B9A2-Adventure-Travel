@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box; 
+    font-family: Mulish;
+}
+
+/* nav section start here */  
+ 
+.nav-section{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 40px 140px;  
+    
+  
+}
+
+.logo-title img{
+   min-height: 70px;
+}
+.logo-title {
+    display: flex; 
+    align-items: center;  
+    gap: 10px; 
+   
+    
+}  
+.primary-color{ 
+    color: #FF0000;
+
+} 
+.nav-content{
+    display: flex; 
+    gap: 20px; 
+  
+    
+}  
+
+.logo-title {
+    font-size: 1.8rem; 
+    font-weight: 800; 
+    color:#131318 ; 
+    width:500px;
+}  
+.btn{ 
+    border-radius: 9px;
+   background: #FF0000; 
+    padding: 10px 40px;  
+    color: #FFF;
+
+}
+ 
+
+.nav-content a{ 
+    text-decoration: none;  
+    color: #424247;  
+    font-size: 1.1rem; 
+    font-weight: 400; 
+    
+}  
+
+/* banner section */
+.banner-img {
+    background:linear-gradient(rgba(18, 18, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 95%), url(../images/Group\ 13\ \(1\)\ \(1\).png); 
+    width: 1100px; 
+    height: 90vh; 
+    object-fit: cover; 
+    background-repeat: no-repeat; 
+    margin: 40px 130px;  
+    border-radius: 15px;  
+    color: #FFF;
+   
+} 
+.banner-title{ 
+    font-size: 4rem;  
+    font-weight: 800; 
+    
+
+
+}
+    .banner-container{
+        text-align: center; 
+        padding-top: 80px;
+    } 
+    .form{
+         
+        border-radius: 8px;
+        background: rgba(256, 256, 256,0.40);  
+        padding: 20px; 
+        margin: 120px 190px;
+
+    } 
+    .form input{
+       border-radius: 10px;  
+       padding: 10px 10px;
+      
+    }
+
+
+
+
