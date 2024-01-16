@@ -57,7 +57,10 @@
     color: #FFF;
 
 }
- 
+.btn:hover{ 
+    background: #FFA500;
+    
+}
 
 .nav-content a{ 
     text-decoration: none;  
@@ -250,20 +253,6 @@ padding: 30px;
 
 
  }
-
-
- 
-
-   
-
-
-
- 
-   
-    
-  
-   
-   
 
   
  .section-contents-img{
@@ -491,11 +480,7 @@ padding: 30px;
     flex-direction: column;
   } 
    
-.simple-place-content{
 
-    flex-direction: column;
-
-  }
  
 
  
