@@ -16,6 +16,9 @@
 }  
 .nav-section a{
     display: block
+} 
+.menu-bar{
+    display: none;
 }
 
  
