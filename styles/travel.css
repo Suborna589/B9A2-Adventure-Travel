@@ -193,7 +193,7 @@
     } 
     .item1{ 
         border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
+border: 1px solid rgb(175, 238, 238);
 background: rgba(251, 181, 99, 0.05); 
 width:560px ; 
 height: 276px; 
@@ -214,22 +214,47 @@ padding: 30px;
     text-align: left; 
     margin-left: 450px; 
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05); 
+border: 1px solid rgb(175, 238, 238);
+background:rgba(251, 181, 99, 0.05);
 width:540px ; 
 height: 276px; 
 padding: 30px;
  } 
  .section-contents-img{
     display: flex; 
-    gap: 30px; 
-    margin: 40px 150px;
+    justify-content: center; 
+    gap: 60px; 
+    margin: 40px 120px;
  } 
  .form-container{
     border: 1px solid #FF0000; 
-    width: 800px; 
-    border-radius: 15px;
- } 
+    width: 1250px; 
+    border-radius: 15px; 
+    padding: 20px 40px; 
+    
+ }  
+ .form-container input{ 
+    border-radius: 10px;
+    padding: 15px 80px;  
+    margin-top: 20px; 
+    border: none; 
+    background:#FFFACD ; 
+
+    } 
+    .form-container  button{ 
+        border-radius: 10px; 
+        padding: 15px 120px;  
+        margin-top: 20px; 
+        border: none; 
+        font-size: 1rem;  
+        color: #FFF;  
+        background: #FF0000;    
+
+    } 
+    .form-container  button:hover{
+        background: #FFA500;
+    }
+ 
  .discount-content{
     text-align: center; 
     width: 640px; 
@@ -290,6 +315,10 @@ padding: 30px;
      font-size: 1rem; 
      margin-bottom: 10px; 
 
+} 
+.simple-btn:hover{ 
+    background:#FFA500 ;
+
 }
 
 
@@ -300,13 +329,27 @@ padding: 30px;
 
  footer{
     text-align: center; 
-    background-color: antiquewhite; 
-    margin: 40px 130px;
+    background-color: #BDB76B; 
+    margin: 40px 130px; 
+    height: 300px; 
+    line-height: 20px;
  } 
  .footer-section{
     display: flex; 
-    justify-content: center;
+    justify-content: center;  
+    padding-top: 20px;
+    
+ }   
+
+ footer hr{
+    width: 700px;  
+    margin-top: 30px;
+
  } 
+ hr:hover{
+ color: #FFFACD;
+ }
+
  .app-icon{ 
     display: flex;
     gap:10px; 
