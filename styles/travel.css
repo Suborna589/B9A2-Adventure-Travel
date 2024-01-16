@@ -19,7 +19,36 @@
 } 
 .menu-bar{
     display: none;
+} 
+.save{
+    border-radius: 10px; 
+    background: #FFA500; 
+    color: #FFF; 
+    width: 330px; 
+    text-align: center; 
+    height: 90px; 
+    line-height: 5px;  
+    position: relative; 
+    bottom: 170px; 
+    margin-left: 340px; 
+    transform: rotate(-19.628deg); 
+    
+    
+  
+   
+} 
+.save p{
+    color: #FFF; 
+    font-size: 1.1rem; 
+    padding-top: 20px;
+} 
+.save h1{
+    font-size: 1.8rem; 
+    font-weight: 800; 
+    margin: 0; 
+    
 }
+
 
  
 
