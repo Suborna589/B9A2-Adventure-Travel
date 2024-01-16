@@ -35,7 +35,7 @@
     
 }  
 
-.logo-title {
+.logo-title h1{
     font-size: 1.8rem; 
     font-weight: 800; 
     color:#131318 ; 
@@ -73,36 +73,74 @@
 .banner-title{ 
     font-size: 4rem;  
     font-weight: 800; 
-    
 
 
-}
+} 
+.banner-description{
+    color: #FFF; 
+    justify-content: center; 
+    font-weight: 400; 
+    font-size: 1rem; 
+    line-height: 22px; 
+    font-family: Mulish;
+} 
+
+
     .banner-container{
         text-align: center; 
-        padding-top: 80px;
+        padding-top: 15px;
     } 
     .form{
          
         border-radius: 8px;
         background: rgba(256, 256, 256,0.40);  
-        padding: 20px; 
-        margin: 120px 190px;
+        margin: 80px 150px  90px; 
+        width: 70%; 
+        height: 15vh
+        
 
     } 
-    .form input{
-       border-radius: 10px;  
-       padding: 10px 10px;
+    .form input,.form select ,.btn{
+       border-radius: 10px; 
+       padding: 12px; 
+       margin: 19px; 
+       width: 250px; 
+ 
+    } 
+    .form-input-select {
+        display: flex; 
+        flex-direction: row; 
+        gap: 5px; 
+        margin: 10px 80px;  
+       
       
     } 
+    
+  
     /*Main section start here  */ 
 
     .main-container{
         display: flex; 
-        justify-content: center; 
+        justify-content: center;  
+        align-items: center;
         margin: 40px 140px; 
-        gap: 40px;
+        gap: 50px;
+    }  
+    .popular-title{
+        font-family: Mulish; 
+        font-size: 2rem; 
+        font-weight: 800px;
     } 
+    .popular-tour{
+        min-width: 200px; 
+        line-height: 30px;
+    }  
 
+    .popular-description ,p,li{
+        font-size: 1rem; 
+        font-weight: 400; 
+        color: rgba(19 ,18, 22 ,0.60);
+    } 
 
 
     .text-content{
@@ -123,7 +161,20 @@
         width: 600px; 
         margin-left: 350px; 
       
+    }  
+    
+
+    .destination-img,.destination-img3,.destination-img2{ 
+        display: flex;
+        flex-direction: row; 
+        gap:10px; 
+        justify-content: center;
+        margin-top: 40px; 
+        transition: transform 0.6s;
+
     } 
+     
+   
     .contents{
         text-align: center;
     } 
@@ -178,7 +229,74 @@ padding: 30px;
     border: 1px solid #FF0000; 
     width: 800px; 
     border-radius: 15px;
+ } 
+ .discount-content{
+    text-align: center; 
+    width: 640px; 
+   margin-left: 400px;
  }  
+ 
+.discount-img,.discount-img1,.discount-img2{
+  margin-left: 90px; 
+  margin-bottom: 5px; 
+  margin-top: 40px;   
+} 
+.dis-btn{ 
+    border-radius: 9px;
+    background: #FF0000; 
+     padding: 10px 40px;  
+     color: #FFF; 
+     margin-left: 600px; 
+     font-size: 1rem; 
+     margin-top: 10px;
+} 
+.dis-btn:hover{
+    background-color: green;
+} 
+.simple-place-conteiner{
+    display: flex; 
+    margin: 50px 110px; 
+    gap: 40px; 
+    align-items: center;
+} 
+.simple-place-content{
+    text-align: left; 
+    max-width: 500px;
+} 
+.simple-title{
+    font-size: 2.5rem; 
+    font-weight: 800; 
+    line-height: 60px; 
+   
+} 
+.simple-descript{ 
+    font-size: 1rem; 
+    line-height: 20px; 
+    font-weight: 400; 
+    color: #5a5a5a;
+
+} 
+.simple-line li{
+    font-size: 1rem; 
+    font-weight: 700px; 
+    line-height: 28px; 
+    color: #131318;
+}  
+.simple-btn{ 
+    border-radius: 9px;
+    background: #FF0000; 
+     padding: 10px 40px;  
+     color: #FFF;  
+     font-size: 1rem; 
+     margin-bottom: 10px; 
+
+}
+
+
+
+
+
+ /* footer secttion start here   */
 
  footer{
     text-align: center; 
@@ -196,6 +314,66 @@ padding: 30px;
 
  }
 
+
+ @media screen and (max-width:600px){ 
+    .logo-title{
+        flex-direction: row;  
+       font-size: 1rem;  
+    }
+      
+ .nav-section{  
+    margin-left: 50px;
+
+ } 
+ .banner-img{ 
+    width: 90%; 
+    margin-left: 20px; 
+    margin-top: 8px;  
+   
+   
+ } 
+ .banner-title{
+    font-size: 2rem; 
+    
+ } 
+ .form{ 
+    margin-left: 10px; 
+    margin-top: 5px; 
+    width: 95%; 
+    height: 50vh;
+
+ } 
+   .form-input-select{ 
+    flex-direction: column; 
+    gap: 2px; 
+   margin: 34px;  
+ }  
+  .main-container{
+    flex-direction: column; 
+
+  } 
+  .text-content{ 
+    max-width: 1200px;
+
+  } 
+  .popular-img img{
+    width: 100%;  
+  margin-right: 400px;
+
+
+  }  
+  .destination-img,.destination-img3,.destination-img2{
+    flex-direction: column;
+  }
+
+ 
+     
+  
+       
+
+    
+
+ }
 
 
 
