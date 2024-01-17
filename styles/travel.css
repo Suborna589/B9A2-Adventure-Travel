@@ -411,7 +411,12 @@ padding: 30px;
 .simple-place-content{
     text-align: left; 
     max-width: 500px;
-} 
+}  
+
+.simple-img img{
+    width: 600px; 
+    height: 400px;
+}
 .simple-title{
     font-size: 2.5rem; 
     font-weight: 800; 
@@ -496,9 +501,8 @@ padding: 30px;
    
 
  }  
- .footer hr{
-    width: 200px;
-   }  
+   
+  
  .section-contents-img{
     flex-direction: column;  
     margin: 0 auto; 
@@ -543,35 +547,36 @@ padding: 30px;
  } 
  .form{ 
     margin-left: 10px; 
-    margin-top: 5px; 
+    margin-top: 2px; 
     width: 95%; 
     height: 50vh;
 
  } 
    .form-input-select{ 
     flex-direction: column; 
-   margin: 34px;  
+    margin: 0 80px; 
  }  
   .main-container{
     flex-direction: column; 
 
   } 
   .text-content{ 
-    max-width: 1200px;
+    max-width: 560px;
 
   } 
   .popular-img img{
-    width: 100%;  
-  margin-right: 400px;
+    width: 120%;  
+ margin-right: 410px;
 
 
   }  
   .destination-img,.destination-img3,.destination-img2 {
     flex-direction: column; 
+   
   }
  
    .text-description { 
-    width: 400px; 
+    width: 570px; 
     margin: 0; 
    
    }  
@@ -582,8 +587,8 @@ padding: 30px;
    }  
     
    .item-container,.item1,.item2,.item3{
-    width: 410px; 
-    margin-left: 5px; 
+    width: 550px; 
+    margin-left:1%; 
     gap: 10px; 
    
    } 
@@ -595,11 +600,11 @@ padding: 30px;
   } 
    .discount-content{
     margin-left: 20px; 
-    width: 400px;
+    width: 500px;
    } 
   
 .discount-img img{
-    width: 340px;  
+    width: 480px;  
     height: 400px; 
   
     
@@ -607,14 +612,50 @@ padding: 30px;
 } 
 .discount-img .box1{
  left: 8%; 
- width: 300px; 
+ width: 360px; 
  top:8%;
 } 
 .discount-img .box2{
     left: 8%; 
-    width: 300px; 
-    top:8%;
-   }
+    width: 360px; 
+    top:8%; 
+    bottom: 8%;
+   } 
+
+.simple-place-content{
+    width:570px;
+   margin-bottom: 30%;
+    
+} 
+.simple-img img{ 
+    width: 580px;
+
+} 
+.form-container{
+    width: 570px;
+    margin-left: 5px;
+} 
+.imges img{
+    width: 580px; 
+    height: 400px; 
+    margin-left: 3px; 
+  
+}  
+
+.img1 img{
+    width: 560px;
+} 
+
+.save{
+    width: 235px; 
+  
+  
+}
+footer{
+    width: 570px; 
+    margin-left: 2%;
+}
+
   
    
  
